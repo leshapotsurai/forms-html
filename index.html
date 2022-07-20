@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+<form action="#" method="post" enctype="multipart/form-data">
+    <div>
+    <p>Name:</p>
+    <input tabindex="1" placeholder="Ivan" type="text" name="username" value="">
+    </div>
+    <div>
+    <p>Password:</p>
+    <input tabindex="2"  type="password" name="userpassword" value="">
+    </div>
+    <div>
+    <p>Numder phone:</p>
+    <input tabindex="3"  type="tel" name="usernumber" value="">
+    </div>
+    <p>Gender:</p>
+    <div><input tabindex="4"  type="radio" name="gender" checked> Male</div>
+    <div><input tabindex="4"  type="radio" name="gender"> Female</div>
+
+    <p>Cash:</p>
+    <div><input checked  type="checkbox" name="bikecycle" value="yes"> a Bike</div>
+    <div><input type="checkbox" name="car" value="yes"> a Car </div>
+    <div><input disabled type="checkbox" name="Flat" value="yes"> Flat</div>
+
+    <p>Another Information:</p>
+    <div><textarea name="information_field" cols="30" rows="10"> </textarea> </div>
+
+    <p>Add photo:</p>
+    <div><input type="file" name="userphoto" value=""></div>
+
+    <div>
+    <p>Favorite colour:</p>
+    <select multiple name="colour">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="Black">Black</option>
+    </select>
+    </div>
+
+    <div>
+        <p>Case</p>
+        <button type="submit" name="form">Push</button>
+        <button type="reset">Clean</button>
+    </div>
+</form>
+    
+
+</body>
+</html>
